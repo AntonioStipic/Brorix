@@ -1,0 +1,246 @@
+#wrapperVideo{
+	padding-left: 2%;
+	margin-left: 2%;
+
+	background-color: #D1D1D1;
+
+	border-radius: 15px;
+	border: 2px solid black;
+
+	width: 50%;
+	height: 100%;
+}
+:not(.lyricsWrapper){
+	overflow: hidden;
+}
+#slider{
+	text-align: right;
+}
+.center{
+	margin: 0 auto;
+	width: 400px;
+}
+#wrapperVideo {
+	position: absolute;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+#wrapperVideo::after {
+	content: '';
+	display: block;
+	position: absolute;
+
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: -9999px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-color: #D1D1D1;
+}
+#wrapperVideo iframe{
+	position: relative;
+	z-index: 100;
+	left: 0;
+}
+#wrapperVideo h4{
+	position: relative;
+	z-index: 99;
+	float: left;
+}
+#wrapperVideo img{
+	position: relative;
+	z-index: 101;
+	float: right;
+	margin-right: 1%;
+}
+.lyricsWrapper{
+	overflow: auto;
+	position: absolute;
+	right: 0px;
+	width: 32%;
+	height: 75%;
+	background-color: #FFDDAC;
+
+	padding-left: 3%;
+	padding-top: 1%;
+
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-right: 2px solid transparent;
+
+	border: 2px solid black;
+
+}
+#slider2{
+	position: relative;
+	left: -12%;
+	top: -1.5rem;
+}
+#lyricsHeader{
+	overflow: auto;
+	position: absolute;
+	top: 0;
+	z-index: 100;
+	padding-left: 6%;
+	padding-right: 6%;
+}
+
+.songList span{
+	margin-left: 10px; 
+}
+.songList{
+	padding: 10px;
+	margin-top: 7.5px;
+	margin-bottom: 7.5px;
+	margin-left: 25%;
+
+	background-color: #F0F0F0;
+
+	width: 50%;
+	border-radius: 10px;
+}
+#xImg1{
+	display: none;
+}
+#xImg2{
+	height: 38px;
+	width: 38px;
+	border-radius: 5px;
+	background-color: gray;
+}
+
+
+#h4Checkbox{
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+
+
+/* ----------------------------------- */
+
+#mask {
+	display: none;
+	background: #000; 
+	position: fixed; left: 0; top: 0; 
+	z-index: 10;
+	width: 100%; height: 100%;
+	opacity: 0.8;
+	z-index: 999;
+}
+
+.login-popup{
+	display:none;
+	background: #333;
+	padding: 10px; 	
+	border: 2px solid #ddd;
+	/* float: left; */
+	font-size: 1.2em;
+	position: fixed;
+	top: 50%; left: 50%;
+	z-index: 99999;
+	box-shadow: 0px 0px 20px #999;
+	-moz-box-shadow: 0px 0px 20px #999; /* Firefox */
+	-webkit-box-shadow: 0px 0px 20px #999; /* Safari, Chrome */
+	border-radius:3px 3px 3px 3px;
+	-moz-border-radius: 3px; /* Firefox */
+	-webkit-border-radius: 3px; /* Safari, Chrome */
+}
+
+img.btn_close {
+	float: right; 
+	margin: -28px -28px 0 0;
+}
+
+fieldset { 
+	border:none; 
+}
+
+form.signin .textbox label { 
+	display:block; 
+	padding-bottom:7px; 
+}
+
+form.signin .textbox span { 
+	display:block;
+}
+
+form.signin p, form.signin span { 
+	color:#999; 
+	font-size:11px; 
+	line-height:18px;
+} 
+
+form.signin .textbox input { 
+	background:#666666; 
+	border-bottom:1px solid #333;
+	border-left:1px solid #000;
+	border-right:1px solid #333;
+	border-top:1px solid #000;
+	color:#fff; 
+	border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	font:13px Arial, Helvetica, sans-serif;
+	padding:6px 6px 4px;
+	width:200px;
+}
+
+form.signin input:-moz-placeholder { color:#bbb; text-shadow:0 0 2px #000; }
+form.signin input::-webkit-input-placeholder { color:#bbb; text-shadow:0 0 2px #000;  }
+
+.button { 
+	background: -moz-linear-gradient(center top, #f3f3f3, #dddddd);
+	background: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#dddddd));
+	background:  -o-linear-gradient(top, #f3f3f3, #dddddd);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f3f3f3', EndColorStr='#dddddd');
+	border-color:#000; 
+	border-width:1px;
+	border-radius:4px 4px 4px 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	color:#333;
+	cursor:pointer;
+	display:inline-block;
+	padding:6px 6px 4px;
+	margin-top:10px;
+	font:12px; 
+	width:214px;
+}
+
+.button:hover { background:#ddd; }
+
+#login-box{
+	text-align: center;
+}
+.iframeButton{
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+#findSearchEngine{
+	z-index: 110;
+}
+
+
+/* -------------------------------------------------------------  PLAYLIST  */ 
+#addToPlaylistDiv{
+	background-color: #FFECD2;
+	width: 30%;
+	border: 2px solid gray;
+	border-radius: 15px;
+	display: none;
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 33.33%;
+	text-align: center;
+}
+
+#xButtonPlaylists{
+	float: right;
+}
+
+.songControls{
+	padding-top: 1%;
+}

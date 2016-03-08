@@ -1,0 +1,4 @@
+325 = Incorrect password
+941 = The user doesn't exist
+784 = The email is already registered
+472 = The username is already registered

@@ -1,0 +1,46 @@
+#newPlaylist_a{
+	float: left;
+	margin-left: 2%;
+}
+#h3{
+	font-size: 2.3vw;
+}
+#h4{
+	font-size: 2vw;
+}
+.moveToRight{
+	margin-left: 34%;
+}
+#addToPlaylistDiv{
+	height: 150px;
+	background-color: #FFECD2;
+	width: 30%;
+	border: 2px solid gray;
+	border-radius: 15px;
+	display: none;
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 33.33%;
+	text-align: center;
+}
+#usr{
+	width: 80%;
+	margin: 0 auto;
+}
+.col-centered{
+    margin: 0 auto;
+    float: none;
+}
+.songList span{
+	margin-left: 10px; 
+}
+.songList{
+	padding: 10px;
+	margin-top: 15px;
+	margin-left: 25%;
+
+	background-color: #F0F0F0;
+
+	width: 50%;
+	border-radius: 10px;
+}

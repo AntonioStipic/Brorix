@@ -1,0 +1,17 @@
+.songList span{
+	margin-left: 10px; 
+}
+img{
+	vertical-align: middle;
+	width: 15%;
+}
+.songList{
+	padding: 10px;
+	margin-top: 15px;
+	margin-left: 25%;
+
+	background-color: #F0F0F0;
+
+	width: 50%;
+	border-radius: 10px;
+}
